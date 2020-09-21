@@ -1,0 +1,11 @@
+GET http://localhost:8080/api/train
+Accept: application/json
+
+###
+POST http://localhost:8080/api/train
+Content-Type: application/json
+
+{
+  "model": "TGV",
+  "locomotive": "Berta"
+}
