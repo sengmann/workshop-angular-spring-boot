@@ -15,6 +15,9 @@ Dazu wird der Client in einem eigenen Gradle-Projekt verpackt und von der Haupt-
 
 ## Gradle Build
 
+Zum Bau des Client wird ein Node Gradle Plugin verwendet. Dieses lässt den Build in der Verantwortung von Gradle
+laufen und stellt eine, vom Host-System unabhängige, Node Installation bereit.
+
 ```bash
 ./gradlew war
 ```
