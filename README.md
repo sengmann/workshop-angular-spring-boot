@@ -64,7 +64,7 @@ Als Enterprise-Framework bietet Spring eine Vielzahl von Konfigurationsmöglichk
 *Property-Dateien*. 
 
 ```properties
-spring.datasource.url= jdbc:postgresql://localhost:5432/springbootdb
+spring.datasource.url= jdbc:postgresql://localhost:5432/postgres
 spring.datasource.username=postgres
 spring.datasource.password=secret
 ```

@@ -2,12 +2,13 @@ package com.w11k.terranets.workshop.types;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
 @Entity
 public class Train {
     private @Id
-    @GeneratedValue
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     int id;
     private String model;
     private String locomotive;

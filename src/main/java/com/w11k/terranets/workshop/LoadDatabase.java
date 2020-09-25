@@ -16,8 +16,8 @@ public class LoadDatabase {
     CommandLineRunner initDatabase(TrainRepository repository) {
 
         return args -> {
-            log.info("Preloading " + repository.save(new Train("ICE", "ICE Locomotive")));
-            log.info("Preloading " + repository.save(new Train("D-Zug", "Dampflok")));
+            //log.info("Preloading " + repository.save(new Train("ICE", "ICE Locomotive")));
+            //log.info("Preloading " + repository.save(new Train("D-Zug", "Dampflok")));
         };
     }
 }
