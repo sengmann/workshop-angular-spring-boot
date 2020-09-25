@@ -16,6 +16,7 @@ public class TrainsController {
     }
 
     @GetMapping("/api/train")
+    @CrossOrigin("http://localhost:8081")
     public List<Train> getTrains() {
         return this.trainsRepo.findAll();
     }
