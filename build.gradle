@@ -30,7 +30,7 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-actuator'
     developmentOnly 'org.springframework.boot:spring-boot-devtools'
     implementation 'org.springframework.boot:spring-boot-starter-jdbc'
-    //implementation 'org.flywaydb:flyway-core'
+    implementation 'org.flywaydb:flyway-core'
     runtimeOnly 'org.postgresql:postgresql'
     annotationProcessor 'org.springframework.boot:spring-boot-configuration-processor'
     providedRuntime 'org.springframework.boot:spring-boot-starter-tomcat'
